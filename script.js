@@ -22,7 +22,7 @@ contactForm.addEventListener('submit', (event) => {
   const email = contactForm.querySelector('input[type="email"]').value;
   const message = contactForm.querySelector('textarea').value;
 
-  // Basic validation (you can add more checks)
+  // validation
   if (name === '' || email === '' || message === '') {
     alert('Please fill out all fields!');
     return;
