@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: #F9F5F2; /* Very Light Beige */
-    color: #4B3C3A; /* Dark Brown */
+    background-color: #F9F5F2; 
+    color: #4B3C3A; 
 }
 
 header {
-    background: #D6CFC4; /* Light Nude */
-    color: #4B3C3A; /* Dark Brown */
+    background: #D6CFC4;
+    color: #4B3C3A;
     padding: 20px;
     text-align: center;
     position: sticky;
@@ -18,27 +18,27 @@ header {
 }
 
 nav a {
-    color: #4B3C3A; /* Dark Brown */
+    color: #4B3C3A; 
     margin: 0 15px;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #BFA6A0; /* Muted Rose */
+    color: #BFA6A0; 
 }
 
 section {
     padding: 60px 20px;
     text-align: center;
-    background: #E8D8D0; /* Soft Beige */
+    background: #E8D8D0; 
     margin: 20px 0;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #4B3C3A; /* Dark Brown */
+    color: #4B3C3A;
 }
 
 .profile-pic {
@@ -65,7 +65,7 @@ h2 {
     width: 300px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background: #F9F5F2; /* Very Light Beige */
+    background: #F9F5F2; 
 }
 
 .project img {
@@ -77,7 +77,7 @@ h2 {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background: #BFA6A0; /* Muted Rose */
+    background: #BFA6A0; 
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -85,7 +85,7 @@ h2 {
 }
 
 .project-link:hover {
-    background: #A76D6A; /* Darker Muted Rose */
+    background: #A76D6A; 
 }
 
 .skills-list {
@@ -101,14 +101,14 @@ h2 {
 }
 
 footer {
-    background: #D6CFC4; /* Light Nude */
-    color: #4B3C3A; /* Dark Brown */
+    background: #D6CFC4; 
+    color: #4B3C3A; 
     text-align: center;
     padding: 20px;
 }
 
 footer a {
-    color: #BFA6A0; /* Muted Rose */
+    color: #BFA6A0; 
     text-decoration: none;
     margin: 0 10px;
 }
@@ -133,7 +133,7 @@ form input, form textarea {
 
 form button {
     padding: 10px 20px;
-    background: #BFA6A0; /* Muted Rose */
+    background: #BFA6A0; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -142,5 +142,5 @@ form button {
 }
 
 form button:hover {
-    background: #A76D6A; /* Darker Muted Rose */
+    background: #A76D6A; 
 }
