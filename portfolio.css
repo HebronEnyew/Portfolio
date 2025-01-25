@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #F9F5F2; /* Very Light Beige */
+    color: #4B3C3A; /* Dark Brown */
+}
+
+header {
+    background: #D6CFC4; /* Light Nude */
+    color: #4B3C3A; /* Dark Brown */
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100 0;
+}
+
+nav a {
+    color: #4B3C3A; /* Dark Brown */
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #BFA6A0; /* Muted Rose */
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #E8D8D0; /* Soft Beige */
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4B3C3A; /* Dark Brown */
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    margin: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #F9F5F2; /* Very Light Beige */
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #BFA6A0; /* Muted Rose */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.project-link:hover {
+    background: #A76D6A; /* Darker Muted Rose */
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #D6CFC4; /* Light Nude */
+    color: #4B3C3A; /* Dark Brown */
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #BFA6A0; /* Muted Rose */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #BFA6A0; /* Muted Rose */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #A76D6A; /* Darker Muted Rose */
+}
